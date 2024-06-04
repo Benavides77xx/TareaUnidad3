@@ -1,5 +1,10 @@
 package insta.curosM4A.models.dao;
 
-public interface IConyugue {
+import org.springframework.data.repository.CrudRepository;
+
+import insta.curosM4A.models.entity.Conyugue;
+
+
+public interface IConyugue extends CrudRepository<Conyugue,Long> {
 
 }

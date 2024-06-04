@@ -1,5 +1,11 @@
 package insta.curosM4A.models.dao;
 
-public interface ISocio {
+import org.springframework.data.repository.CrudRepository;
 
+import insta.curosM4A.models.entity.Socio;
+
+
+public interface ISocio extends CrudRepository<Socio,Long> {
+
+	
 }

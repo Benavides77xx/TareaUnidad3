@@ -1,5 +1,10 @@
 package insta.curosM4A.models.dao;
 
-public interface INegocio {
+import org.springframework.data.repository.CrudRepository;
+
+import insta.curosM4A.models.entity.Negocio;
+
+
+public interface INegocio extends CrudRepository<Negocio,Long>{
 
 }
